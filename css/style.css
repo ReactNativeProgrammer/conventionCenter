@@ -1,0 +1,116 @@
+/* Default Styles Utilities */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------
+    Slider Styles
+------------------------- */
+.slider{
+    width: 100%;
+}
+.sliderGutter{
+    margin: 0;padding: 0;
+}
+.previousIcon, .nextIcon{
+    background-color: #ffc107;
+    border-radius: 25px;
+}
+.sliderIndicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffc107;
+}
+/* ---------------------------------
+    Card Styles
+----------------------------------- */
+.cardDetails{
+    padding-left: 0;
+}
+.cardDetails li{
+    list-style: none;
+    margin-bottom: .7em;
+}
+.cardDetails i{
+    background-color: #ffc1073b;
+    width: 25px;
+    padding-left: 3px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.cardBg:hover #cardBtn{
+    background-color: #fff;
+}
+.cardBg:hover{
+    background-color: #ffc107;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 0 #ffc107 !important;
+}
+.packageBg .active{
+    background-color: #ffc107;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 0 #ffc107 !important;
+}
+.packageBg #cardBtn.active{
+    background-color: #fff;
+}
+.cardBg:hover ul li a{
+    color: #fff;
+}
+.cardBg{
+    position: relative;
+}
+.hotBg{
+    position: absolute;
+    top: -0.8em;
+    right: 2em;
+}
+.hotBg p{
+    background-color: red;
+    padding: 3px 10px;
+    color: #fff;
+     font-weight: bold;
+     letter-spacing: 1px;
+     border-radius: 1em;
+}
+@media only screen and (max-width:576px) {
+    .packageBg{
+        margin-left: 30px;
+        margin-right: 30px !important;
+    }
+}
+
+/*-----------------------
+     footer Style 
+-------------------------*/
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 .7em;
+    border: 2px solid #ffc107;
+    border-radius: .6em;
+}
+footer p.copyRight{
+    display: flex;
+    align-items: center;
+}
+footer img{
+    width: 35px;
+    height: 35px;
+}
+a.store:hover{
+    background-color: #ffc10746;
+    color:#fff;
+}
+.appLink{
+    margin-left: 0.5em;
+}
