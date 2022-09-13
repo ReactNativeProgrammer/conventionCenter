@@ -18,6 +18,22 @@
     border-radius: 50%;
     background-color: #ffc107;
 }
+a.btnSHover{
+    background-color: #fff;
+    color: #ffc107;
+}
+a.btnSHover:hover{
+    background-color: #ffc107 !important;
+    color: #fff;
+}
+a.btnHover{
+    background-color: #ffc107;
+    color: #fff;
+}
+a.btnHover:hover{
+    background-color: #fff;
+    color: #ffc107 !important;
+}
 /* ---------------------------------
     Card Styles
 ----------------------------------- */
