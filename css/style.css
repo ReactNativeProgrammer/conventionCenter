@@ -2,6 +2,9 @@
 /* -----------------------
     Slider Styles
 ------------------------- */
+.nav-link:focus, .nav-link:hover{
+    color: #ffc107 !important;
+}
 .slider{
     width: 100%;
 }
