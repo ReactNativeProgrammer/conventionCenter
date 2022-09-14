@@ -1,4 +1,17 @@
+/* Toast Styles */
 
+.toastBg{
+    position: absolute;
+    right: 3em;
+    top: 55%;
+    z-index: 9999;
+    border-left: 5px solid #ffc107;
+}
+.toastBg img{
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+}
 /* -----------------------
     Slider Styles
 ------------------------- */
